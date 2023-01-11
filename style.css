@@ -1,0 +1,43 @@
+body {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #9391DB;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.block{  
+    width: 800px; 
+    padding: 50px;
+    border-radius: 50px 10px 50px 10px;
+    background-image: url("https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
+}
+.grid-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 150px auto 150px;
+
+  }
+a{
+    color:blue
+}
+p{
+    text-align: left;
+}
+p1{
+    text-align: left;
+    font-weight:700
+}
+button{
+    float: right;
+}
+textarea{
+    min-width: 100%;
+    max-width: 100%;
+    
+}
